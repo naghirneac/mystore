@@ -1,0 +1,169 @@
+body{
+  background-color:  #f0f0f5;
+}
+
+nav{
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+nav ul{
+    list-style: none;
+    position: relative;
+    float: center;
+    display: inline-table;
+  }
+
+nav ul li{
+      float: left;
+  }
+
+nav ul li a{
+        display: block; 
+        padding: 10px 10px;
+        color: #333; 
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+nav a:hover{
+  background-color:gray;
+}
+
+      
+header{
+  font-family: vladimir script;
+  font-size: 45px;
+  text-shadow: 1px 1px;
+}
+
+aside{
+  float: left;
+}
+
+.obuv li a{
+  text-decoration: none;
+  color: black;
+}
+
+.obuv li a:hover{
+  color: red;
+}
+aside ul{
+  color:  #800000;
+}
+section{
+  width: 90%;
+  margin-left:5%;
+  margin-right:5%;
+}
+ .obn{
+  margin-left: 31%;
+  margin-top: 5%
+}
+.reklama{
+	background-image: url(img/fon.jpg);
+	background-size: cover;
+	width: 70%;
+	margin-left: 25%;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin-top:4%;
+	margin-bottom: 2%;
+}
+.reklama span{
+	font-size: 50px;
+}
+
+.nowinki{
+	display: inline-block;
+	width: 20%;
+	margin-left:3%;
+	margin-right:4%;
+}
+.obiecte-sub{
+	width: 100%;
+	margin-top: 2%;
+	text-align: center;
+}
+
+.obiecte-sub .nowinki{
+	width: 17%;
+	vertical-align: top;
+}
+.nowinki img{
+	width: 100%;
+	box-shadow: 1px 1px 1px;
+}
+
+.nowinki button{
+	color: white;
+    border: 2px solid #F64C2B;
+    border-radius: 5px;
+    background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+    box-shadow: 2px 2px 2px black;
+}
+
+.nowinki button:hover{
+	box-shadow: 2px 2px 2px white;
+	color: black;
+}
+
+.podval{
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px; 
+	vertical-align:top;
+}
+
+footer{
+	width: 100%;
+	margin-top: 5%;
+	text-align: center;
+	background-color: black; 
+}
+
+.podval a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-size: 10px;
+}
+
+ .zagolovok{
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;	
+}
+
+.podval a:hover{
+	color: gray;
+}
+
+.podval button{
+	border-radius: 2px;
+	font-family: arial,sans-serif;
+	background: white linear-gradient(#f4f4f4, #f1f1f1);
+}
+
+.kon{
+	color: white;
+	font-size: 15px;
+	margin-top: 5%;
+}
+
+.logot{
+	font-family: vladimir script;
+	font-size: 45px;
+	text-shadow: 0.5px 0.5px;
+	color: white;
+	margin-top: 3%; 
+}

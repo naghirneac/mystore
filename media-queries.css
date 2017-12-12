@@ -1,0 +1,94 @@
+@media screen and (max-width: 1663px){
+	#sale{
+		font-size: 25px;
+	}
+	.example{
+		vertical-align: top;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	nav ul{
+    list-style: none;
+    position: relative;
+    float: right;
+    display: inline-table;
+  }
+
+  #sale{
+  	font-size: 23px
+  }
+
+  #prazdnik{
+  	width: 80%;
+  	font-size: 30px;
+  	height: 370px;
+  	color: black;
+  	text-shadow: 1px 1px #009933;
+  }
+
+  #prazdnik a {
+  	color: black;
+  	text-shadow: 1px 1px #009933
+  }	
+ .example{
+ 	width: 28%;
+ 	vertical-align: top;
+ }
+}
+
+@media screen and (max-width: 650px){
+	nav ul li a{
+		font-size: 9px
+	}
+	
+	header{
+		font-size: 40px
+	}
+
+	#prazdnik span{
+		font-size: 45px;
+	}
+
+	.example{
+		display: block;
+		float: center;
+		width: 100%;
+		margin-top: 2%
+
+	}
+	#skazki{
+		height: 300px
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#sale{
+		font-size: 17px;
+		margin-top: 32%
+	}
+	#prazdnik{
+		font-size: 20px;
+		height: 250px;
+		margin-top: 5%;
+	}
+	#prazdnik span{
+		text-shadow: 1px 1px black;
+	}
+	header{
+		text-align: center;
+	}
+	nav{
+		margin-top: 12%;
+	}
+	nav ul li a{
+		font-size: 15px
+	}
+	#skazki{
+		height: 250px;
+		margin-top: 5%;
+	}
+	.element{
+		margin-top: 10%;
+	}
+}
